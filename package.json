@@ -1,0 +1,15 @@
+{
+	"name": "bit-macros",
+	"version": "1.0.1",
+	"main": "src/index.js",
+	"repository": {
+		"url": "https://github.com/luk3skyw4lker/bit-macros"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"jest": "^26.4.0"
+	},
+	"scripts": {
+		"test": "jest"
+	}
+}
