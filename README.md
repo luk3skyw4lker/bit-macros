@@ -71,4 +71,4 @@ console.log(coupled_value2); // 255
 
 # TODO
 
-- [] Add set/tst/clr/cpl many bits
+- [ ] Add set/tst/clr/cpl many bits
