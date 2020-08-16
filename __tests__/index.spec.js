@@ -31,4 +31,8 @@ test("cpl_bit", () => {
 	const coupled_value = cpl_bit(value, 7);
 
 	expect(coupled_value).toEqual(127);
+
+	const double_coupled_value = cpl_bit(coupled_value, 7);
+
+	expect(double_coupled_value).toEqual(255);
 });
