@@ -1,6 +1,6 @@
 {
 	"name": "bit-macros",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "src/index.js",
 	"repository": {
 		"url": "https://github.com/luk3skyw4lker/bit-macros"
