@@ -3,7 +3,7 @@ module.exports = {
 		return value | (1 << bit);
 	},
 	tst_bit(value, bit) {
-		return (value & (1 << bit)) === value;
+		return value & (1 << bit);
 	},
 	clr_bit(value, bit) {
 		return value & ~(1 << bit);
