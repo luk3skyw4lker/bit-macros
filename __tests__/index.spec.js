@@ -13,7 +13,7 @@ test("set_bit success", () => {
 test("tst_bit success", () => {
 	const value = 2;
 
-	expect(tst_bit(value, 1)).toEqual(true);
+	expect(tst_bit(value, 1)).not.toBe(0);
 });
 
 test("clr_bit success", () => {
@@ -26,7 +26,7 @@ test("clr_bit success", () => {
 	expect(final).toEqual(0);
 });
 
-test("cpl_bit", () => {
+test("cpl_bit success", () => {
 	const value = 255;
 	const coupled_value = cpl_bit(value, 7);
 
