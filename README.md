@@ -27,6 +27,8 @@ console.log(monday_and_tuesday); // 6
 
 ## tst_bit
 
+This macro works with **falsy** values. It returns an integer different of zero if the bit is actually activated on the value passed as argument.
+
 ```javascript
 const { tst_bit } = require("bit-macros");
 
